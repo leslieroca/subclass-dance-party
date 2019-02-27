@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <h1 class="squat"></h1>
     <title>Object Dance Party</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="animate.css"/>
     <script src="lib/jquery.js"></script>
     <script src="src/dancer.js"></script>
     <script src="src/squatDancer.js"></script>
@@ -11,10 +13,12 @@
   </head>
   <body>
     <div class="topbar">
-      <span class="title">object dance party</span>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>    
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeSquatDancer">add a squat dancer</a> 
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeElasticDancer">add an elastic dancer</a> </div>
+      <span class="title" background="src/coloredborder.jpg">object dance party </span>
+        <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>    
+        <a href="#" class="addSquatDancerButton" data-dancer-maker-function-name="makeSquatDancer">add a squat dancer</a> 
+        <a href="#" class="addElasticDancerButton" data-dancer-maker-function-name="makeElasticDancer">add an elastic dancer</a> 
+        <a href="#" class="lineupButton">Lineup!</a> 
+    </div>
     <script src="src/init.js"></script>
   </body>
 </html>
